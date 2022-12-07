@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.fonts{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #6767661e;
+}
+h1{
+    color: #222;
+    font-size: 48px;
+    text-align:center;
+    padding: 20px 0;
+}
+.main__box{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.box{
+   padding: 20px 0 20px 0;
+   text-align: center;  
+}
+.taskinput{
+    padding: 20px 200px 20px 20px;
+    border: none;
+}
+.taskbutton{
+    color: #fff;
+    font-size: 16px;
+    font-family: 700;
+    padding: 20px ;
+    border: none;
+    background: #181818;
+}
+ul li{
+    list-style: none;
+    max-width: 450px;
+    padding: 20px 10px;
+    margin:20px auto;
+    background: #25222240;
+    font-size: 20px;
+    color: #222;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+ul li .delet, .edit, .update{
+    font-size: 16px;
+    color: #222;
+    margin: 0 5px;
+    padding: 10px;
+    text-transform: capitalize;
+    background: none;
+}
+
+.texts_flex, .buttons_flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+span{
+    margin:0 5px;
+}
+.updateInput {
+    color: #222;
+    background: #25222230;
+    padding: 10px ;
+    margin: 0 5px;
+    border: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.taskinputend{
+    display: none;
+}
